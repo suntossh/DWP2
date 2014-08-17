@@ -15,10 +15,6 @@ public class Rest1Filter implements ContainerRequestFilter {
 		System.out.println(arg0.getRequestUri().getHost());
 		System.out.println(arg0.getRequestUri().getPort());
 		System.out.println("############### Rest1Filter FILTER ENDS##################");
-		/*InBoundHeaders inBoundHeaders = new InBoundHeaders();
-		inBoundHeaders.add("Name", "Santosh Pandey");
-		inBoundHeaders.add("Salary biWeekly", "250 K");
-		arg0.setHeaders(inBoundHeaders);*/
 		return arg0;
 	}
 
